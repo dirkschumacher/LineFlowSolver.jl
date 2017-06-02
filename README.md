@@ -18,6 +18,14 @@ Input:
 * Tuples of edge/line combinations that fix lines to edges
 * A set of edges where only one line can be assigned to
 
+Goal: Minimize the sume of cost of all line/edge tuples
+
+Subject to:
+
+* Certain line/edge tuples are fixed
+* Only one line can be assigned to certain edges
+* If a line enters a node, then a line must also leave the node
+
 Output:
 
 * An assignment of lines to edges
