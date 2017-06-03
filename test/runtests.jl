@@ -2,7 +2,6 @@ using LineFlowSolver
 using Base.Test
 using JuMP
 using GLPKMathProgInterface
-using LightGraphs
 
 tests = ["solve"]
 
